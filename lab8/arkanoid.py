@@ -83,10 +83,10 @@ wintextRect = wintext.get_rect()
 wintextRect.center = (W // 2, H // 2)
 
 # Adding user events
-inc_ball_speed = pygame.USEREVENT + 1
+inc_ball_speed = pygame.USEREVENT + 1 # Increasing ball speed
 pygame.time.set_timer(inc_ball_speed, 1000)
 
-shrink_paddle = pygame.USEREVENT + 2
+shrink_paddle = pygame.USEREVENT + 2 # Shrinking paddle
 pygame.time.set_timer(shrink_paddle, 2000)
 
 # Main Loop
